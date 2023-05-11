@@ -2,8 +2,8 @@ var grades = [];
         var update_scores = function () {
            var val = get_itemList(grades);
            //Adicione os nomes de IDs apropriados para ler as notas, studentName
-           document.getElementById("score").value = "";
-           document.getElementById("studentName").value = val;
+           document.getElementById("scores").value = val;
+           document.getElementById("studentName").value = "";
            document.getElementById("score").value = "";   
            document.getElementById("studentName").focus();
         }    
